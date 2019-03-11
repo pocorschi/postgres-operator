@@ -85,7 +85,9 @@ type Config struct {
 	DbHostedZone                           string            `name:"db_hosted_zone" default:"db.example.com"`
 	AWSRegion                              string            `name:"aws_region" default:"eu-central-1"`
 	WALES3Bucket                           string            `name:"wal_s3_bucket"`
+	WALEGSBucket                           string            `name:"wal_gs_bucket"`
 	LogS3Bucket                            string            `name:"log_s3_bucket"`
+	LogGSBucket                            string            `name:"log_gs_bucket"`
 	KubeIAMRole                            string            `name:"kube_iam_role"`
 	DebugLogging                           bool              `name:"debug_logging" default:"true"`
 	EnableDBAccess                         bool              `name:"enable_database_access" default:"true"`

@@ -57,9 +57,11 @@ configuration:
   aws_or_gcp:
     # db_hosted_zone: ""
     # wal_s3_bucket: ""
+    # wal_gs_bucket: ""
     # log_s3_bucket: ""
+    # log_gs_bucket: ""
     # kube_iam_role: ""
-    aws_region: eu-central-1
+    # aws_region: eu-central-1
   debug:
     debug_logging: true
     enable_database_access: true

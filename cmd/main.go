@@ -65,6 +65,7 @@ func main() {
 
 	log.SetOutput(os.Stdout)
 	log.Printf("Spilo operator %s\n", version)
+	log.Printf("my operator %s\n", "6")
 
 	sigs := make(chan os.Signal, 1)
 	stop := make(chan struct{})

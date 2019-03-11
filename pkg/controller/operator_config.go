@@ -5,8 +5,8 @@ import (
 
 	"time"
 
-	acidv1 "github.com/zalando/postgres-operator/pkg/apis/acid.zalan.do/v1"
-	"github.com/zalando/postgres-operator/pkg/util/config"
+	acidv1 "github.com/pocorschi/postgres-operator/pkg/apis/acid.zalan.do/v1"
+	"github.com/pocorschi/postgres-operator/pkg/util/config"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
@@ -77,9 +77,13 @@ func (c *Controller) importConfigurationFromCRD(fromCRD *acidv1.OperatorConfigur
 	result.MasterDNSNameFormat = fromCRD.LoadBalancer.MasterDNSNameFormat
 	result.ReplicaDNSNameFormat = fromCRD.LoadBalancer.ReplicaDNSNameFormat
 
+
+
 	result.WALES3Bucket = fromCRD.AWSGCP.WALES3Bucket
+	result.WALEGSBucket = fromCRD.AWSGCP.WALEGSBucket
 	result.AWSRegion = fromCRD.AWSGCP.AWSRegion
 	result.LogS3Bucket = fromCRD.AWSGCP.LogS3Bucket
+	result.LogGSBucket = fromCRD.AWSGCP.LogGSBucket
 	result.KubeIAMRole = fromCRD.AWSGCP.KubeIAMRole
 
 	result.DebugLogging = fromCRD.OperatorDebug.DebugLogging

@@ -19,6 +19,8 @@ const (
 	replicationUserName = "standby"
 )
 
+fmt.Println("starting up...")
+
 var logger = logrus.New().WithField("test", "cluster")
 var cl = New(Config{OpConfig: config.Config{ProtectedRoles: []string{"admin"},
 	Auth: config.Auth{SuperUsername: superUserName,
