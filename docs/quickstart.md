@@ -13,7 +13,7 @@ built-in Kubernetes support.
 ## Local execution
 
 ```bash
-git clone https://github.com/zalando/postgres-operator.git
+git clone https://github.com/pocorschi/postgres-operator.git
 cd postgres-operator
 
 minikube start

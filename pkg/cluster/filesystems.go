@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zalando/postgres-operator/pkg/spec"
-	"github.com/zalando/postgres-operator/pkg/util/constants"
-	"github.com/zalando/postgres-operator/pkg/util/filesystems"
+	"github.com/pocorschi/postgres-operator/pkg/spec"
+	"github.com/pocorschi/postgres-operator/pkg/util/constants"
+	"github.com/pocorschi/postgres-operator/pkg/util/filesystems"
 )
 
 func (c *Cluster) getPostgresFilesystemInfo(podName *spec.NamespacedName) (device, fstype string, err error) {

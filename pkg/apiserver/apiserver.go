@@ -13,10 +13,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/zalando/postgres-operator/pkg/cluster"
-	"github.com/zalando/postgres-operator/pkg/spec"
-	"github.com/zalando/postgres-operator/pkg/util"
-	"github.com/zalando/postgres-operator/pkg/util/config"
+	"github.com/pocorschi/postgres-operator/pkg/cluster"
+	"github.com/pocorschi/postgres-operator/pkg/spec"
+	"github.com/pocorschi/postgres-operator/pkg/util"
+	"github.com/pocorschi/postgres-operator/pkg/util/config"
 )
 
 const (

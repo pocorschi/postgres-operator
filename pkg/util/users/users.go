@@ -7,8 +7,8 @@ import (
 
 	"reflect"
 
-	"github.com/zalando/postgres-operator/pkg/spec"
-	"github.com/zalando/postgres-operator/pkg/util"
+	"github.com/pocorschi/postgres-operator/pkg/spec"
+	"github.com/pocorschi/postgres-operator/pkg/util"
 )
 
 const (

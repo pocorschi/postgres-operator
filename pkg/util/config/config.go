@@ -7,7 +7,7 @@ import (
 
 	"fmt"
 
-	"github.com/zalando/postgres-operator/pkg/spec"
+	"github.com/pocorschi/postgres-operator/pkg/spec"
 )
 
 // CRD describes CustomResourceDefinition specific configuration parameters

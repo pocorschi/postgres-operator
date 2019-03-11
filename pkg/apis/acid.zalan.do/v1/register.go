@@ -5,7 +5,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"github.com/zalando/postgres-operator/pkg/apis/acid.zalan.do"
+	"github.com/pocorschi/postgres-operator/pkg/apis/acid.zalan.do"
 )
 
 // APIVersion of the `postgresql` and `operator` CRDs

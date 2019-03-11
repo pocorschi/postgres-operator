@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/zalando/postgres-operator/pkg/util/retryutil"
+	"github.com/pocorschi/postgres-operator/pkg/util/retryutil"
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 
-	"github.com/zalando/postgres-operator/pkg/cluster"
-	"github.com/zalando/postgres-operator/pkg/util"
+	"github.com/pocorschi/postgres-operator/pkg/cluster"
+	"github.com/pocorschi/postgres-operator/pkg/util"
 )
 
 func (c *Controller) nodeListFunc(options metav1.ListOptions) (runtime.Object, error) {

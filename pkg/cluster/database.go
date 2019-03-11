@@ -9,9 +9,9 @@ import (
 
 	"github.com/lib/pq"
 
-	"github.com/zalando/postgres-operator/pkg/spec"
-	"github.com/zalando/postgres-operator/pkg/util/constants"
-	"github.com/zalando/postgres-operator/pkg/util/retryutil"
+	"github.com/pocorschi/postgres-operator/pkg/spec"
+	"github.com/pocorschi/postgres-operator/pkg/util/constants"
+	"github.com/pocorschi/postgres-operator/pkg/util/retryutil"
 )
 
 const (

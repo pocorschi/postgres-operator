@@ -1,4 +1,4 @@
-package: github.com/zalando/postgres-operator
+package: github.com/pocorschi/postgres-operator
 import:
 - package: github.com/sirupsen/logrus
   version: ^1.0.1
